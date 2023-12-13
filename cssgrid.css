@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* width: 1180px; */
+    border: 2px solid red;
+    /* padding: px; */
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    /* grid-template-columns: 30% 70%; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-columns: repeat(auto-fill,100px); */
+    grid-template-columns: auto auto auto;
+}
+
+.box{
+    border: 2px solid green;
+    padding: 12px;
+}
