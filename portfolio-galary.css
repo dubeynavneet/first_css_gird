@@ -75,3 +75,19 @@ body{
 .col-2{
     grid-column: span 2;;
 }
+
+@media  screen and (max-width:1024px) {
+    .container{
+        flex-direction: column;
+        padding-block: 20px;
+    }
+    .box{
+        grid-row: span 1;
+        grid-column: span 3;
+    }
+    .gallery{
+        width: 100%;
+        grid-auto-rows: 220px;
+        padding-inline: 12px;    
+    }
+}
